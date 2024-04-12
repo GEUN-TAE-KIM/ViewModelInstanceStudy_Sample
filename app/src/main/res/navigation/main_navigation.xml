@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="kr.rmsxo.viewmodelinstance.ui.sam.HomeFragment"
+        android:label=""
+        tools:layout="@layout/fragment_home"
+        >
+        <action
+            android:id="@+id/action_nav_home_to_nav_sam"
+            app:destination="@id/nav_sam" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_home2"
+        android:name="kr.rmsxo.viewmodelinstance.ui.another.HomeFragment2"
+        android:label="HomeFragment2"
+        tools:layout="@layout/fragment_home2">
+        <action
+            android:id="@+id/action_nav_home2_to_nav_another"
+            app:destination="@id/nav_another" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_sam"
+        android:name="kr.rmsxo.viewmodelinstance.ui.sam.SamFragment"
+        android:label="SamFragment"
+        tools:layout="@layout/fragment_sam"/>
+    <fragment
+        android:id="@+id/nav_another"
+        android:name="kr.rmsxo.viewmodelinstance.ui.another.AnotherFragment"
+        android:label="AnotherFragment"
+        tools:layout="@layout/fragment_another"/>
+    <fragment
+        android:id="@+id/nav_home3"
+        android:name="kr.rmsxo.viewmodelinstance.ui.other.HomeFragment3"
+        android:label="HomeFragment3"
+        tools:layout="@layout/fragment_home3">
+        <action
+            android:id="@+id/action_nav_home3_to_nav_other"
+            app:destination="@id/nav_other" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_other"
+        android:name="kr.rmsxo.viewmodelinstance.ui.other.OtherFragment"
+        android:label="OtherFragment"
+        tools:layout="@layout/fragment_other"/>
+
+    <fragment
+        android:id="@+id/nav_home4"
+        android:name="kr.rmsxo.viewmodelinstance.ui.other_sam.HomeFragment4"
+        android:label="HomeFragment4"
+        tools:layout="@layout/fragment_home4">
+        <action
+            android:id="@+id/action_nav_home4_to_nav_other2"
+            app:destination="@id/nav_other2" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_other2"
+        android:name="kr.rmsxo.viewmodelinstance.ui.other_sam.OtherFragment2"
+        android:label="OtherFragment2"
+        tools:layout="@layout/fragment_other2"/>
+
+
+</navigation>
