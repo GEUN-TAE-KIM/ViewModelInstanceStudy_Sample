@@ -3,6 +3,7 @@ package kr.rmsxo.viewmodelinstance.ui.other
 import android.os.Bundle
 import android.view.View
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.fragment.findNavController
 import kr.rmsxo.viewmodelinstance.R
 import kr.rmsxo.viewmodelinstance.databinding.FragmentOtherBinding
 import kr.rmsxo.viewmodelinstance.ui.InViewModel

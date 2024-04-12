@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-
+        <variable
+            name="viewModel"
+            type="kr.rmsxo.viewmodelinstance.ui.InViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

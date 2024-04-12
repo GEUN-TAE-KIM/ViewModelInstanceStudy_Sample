@@ -23,6 +23,10 @@ class HomeFragment4  : BaseFragment<FragmentHome4Binding>(R.layout.fragment_home
 
         viewModel = ViewModelProvider(requireActivity()).get(InViewModel::class.java)
 
+        // 데이터 바인딩 객체와 뷰 모델 연결
+        binding.viewModel = viewModel
+        binding.lifecycleOwner = this
+
         binding.button.setOnClickListener {
             viewModel.function1(binding.editText.text.toString())
         }
