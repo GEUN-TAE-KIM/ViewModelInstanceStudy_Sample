@@ -1,11 +1,12 @@
 ## 상세 설명
-https://velog.io/@rmsxo5678/AndroidViewModelInstance
+https://velog.io/@rmsxo5678/AndroidJetpack-Compose-Bottom-navigation
 
 
 ## 실행
 
-|데이터 전달|
+|BottomNavigation|
 |------|
-|![ezgif com-resize 0 04 54](https://github.com/GEUN-TAE-KIM/ViewModelInstanceStudy_Sample/assets/80413888/b679e100-af81-4469-94ce-46c0daec7575)|
+|![untitled](https://github.com/GEUN-TAE-KIM/ViewModelInstance_Sample/assets/80413888/fc3ea31e-cc5d-4615-b80a-334ed5e56827)|
+
 
 
